@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>HW 23</title>
-</head>
-<body>
-    <h1 class="bg-red-600 text-center text-2xl text-white">Hello World!</h1>
-</body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NavBar Part Start -->
+    <section class="bg-red-500">
+      <div class="container w-[1320px] m-auto">
+        <div class="navBarPart flex items-center">
+          <div class="logo">
+            <picture>
+              <img src="images/01.png" alt="01.png" class="w-[150px]" />
+            </picture>
+          </div>
+          <div class="listItem text-white text-2xl font-semibold
+          m-auto">
+            <ul>
+              <li class="inline-block px-[30px]"><a href="#">Home</a></li>
+              <li class="inline-block px-[30px]"><a href="#">Perfumes</a></li>
+              <li class="inline-block px-[30px]"><a href="#">About</a></li>
+              <li class="inline-block"><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="button px-[30px] py-[5px] bg-yellow-400 rounded-full text-xl color-white">
+            <a href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- NavBar Part End -->
+  </body>
 </html>
